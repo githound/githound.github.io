@@ -1,0 +1,277 @@
+
+.navbar {
+  border-radius: 0px;
+	margin-bottom: 0px;
+	color: #fff;
+}
+
+.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+} 
+
+.navbar-brand {
+	font-size: 22px;
+	font-family: Montserrat;
+	font-weight: 700;
+	-webkit-transition: background 250ms;
+  	transition: 250ms;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #4fd3aa;
+  background-color: transparent;
+}
+
+h1, h2, h3, h4, h5 {
+color: #54565a
+}
+
+p {
+	color: #999;
+	text-align: justify;
+}
+
+.btn {
+	font-size: 16px;
+}
+
+span.value {
+-webkit-border-radius: 130px;
+-moz-border-radius: 130px;
+border-radius: 130px;
+background: #39b885;
+color: #fff;
+padding: 5px 9px;
+margin-right: 10px;
+font-size: 12px;
+}
+
+body {
+	font-family: "PT Sans";
+}
+
+.title {
+	text-align: center;
+}
+
+.icon-instruction {
+	text-align: center;
+	font-size: 48px;
+	color: #39b885;
+	text-shadow: 0px 2px rgba(0,0,0,0.09)
+}
+
+.jumbotron {
+	margin-top: -60px;
+	background: transparent;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/bg-office-githound.jpg');
+	background-size: 100%;
+	background-position: center;
+	margin-bottom: 0px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+.jumbotron h1, 
+.jumbotron h2,
+.jumbotron h3, 
+.jumbotron h4, 
+.jumbotron h5,  
+.jumbotron p {
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 2px rgba(0,0,0,0.5);
+}
+
+.jumbotron input {
+	padding: 10px;
+}
+
+.jumbotron .form-inline {
+	text-align: center;
+}
+
+.form-mail {
+	height: auto;
+}
+
+.btn-success {
+background: #3dbe8b;
+  background: -webkit-linear-gradient(#43c692, #39b885);
+  background: linear-gradient(#43c692, #39b885);
+  border: 1px solid #1f7c57;
+  border-radius: 4px;
+  box-shadow: inset #4fd3aa 0 1px;
+  color: #fff;
+  
+  -webkit-transition: background 300ms;
+  transition: background 300ms;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: #1c8f3d 0 1px 0;
+  -webkit-transition: background 150ms;
+  transition: background 150ms;
+}
+
+.jumbotron h1 {
+	font-size: 36px;
+}
+
+.input-box {
+	min-width: 250px;
+}
+
+.form-signup {
+	min-height: 50px;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.section {
+	padding: 30px 0px 30px 0px;
+}
+
+.section .title {
+	margin-bottom: 10px;
+}
+
+.section  h5 {
+	color: #999; 
+}
+
+.title-section {
+	margin-bottom: 50px;
+}
+
+hr {
+	width: 10%;
+	margin-bottom: 20px;
+	border-color: #ddd;
+}
+
+.spec-form label {
+	font-weight: normal;
+}
+
+.spec-form h5 {
+	text-transform: uppercase;
+	color: #54565a;
+	margin-bottom: 15px;
+}
+
+.spec-form .row {
+	margin-bottom: 40px;
+}
+
+.spec-form-mail {
+	margin: 30px 0px;
+}
+
+/* SLIDE BAR */
+
+.irs-bar {
+    height: 10px; top: 33px;
+    border-top: 1px solid #1f7c57;
+    border-bottom: 1px solid #1f7c57;
+    background: #428bca;
+    background: linear-gradient(to top, #39b885 0%, #43c692 100%); /* W3C */
+}
+    .irs-bar-edge {
+        height: 10px; top: 33px;
+        width: 14px;
+        border: 1px solid #1f7c57;
+        border-right: 0;
+        background: #1f7c57;
+        background: linear-gradient(to top, #39b885 0%, #43c692 100%); /* W3C */
+        border-radius: 16px 0 0 16px;
+        -moz-border-radius: 16px 0 0 16px;
+    }
+
+	.irs-from, .irs-to, .irs-single {
+    color: #fff;
+    font-size: 14px; line-height: 1.333;
+    text-shadow: none;
+    padding: 1px 5px;
+    background: #43c692;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.img-tech-logo {
+	height: 40px;
+	opacity: 0.2;
+	filter: alpha(opacity=20); /* For IE8 and earlier */
+	margin: 0px 8px; 
+}
+
+#footer {
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	text-align: center;
+}
+
+@media(max-width:992px){
+	
+	.input-box {
+		min-width: 100px;
+	}
+	
+	.jumbotron {
+		margin-top: -60px;
+		background: transparent;
+		padding-top: 90px;
+		padding-bottom: 50px;
+		background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/bg-office-githound.jpg');
+		background-position: center;
+		margin-bottom: 0px;
+	}
+
+	.jumbotron h1 {
+		font-size: 32px;
+	}
+
+	.section {
+		padding: 15px 0px 15px 0px;
+	}
+
+	.section .title {
+		margin-bottom: 5px;
+	}
+
+	.section  h5 {
+		color: #999; 
+	}
+
+	.title-section {
+		margin-bottom: 25px;
+	}
+	
+	.btn.btn-success.form-signup {
+	min-height: 40px;
+	padding: 10px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+	.form-inline .form-control {
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
