@@ -371,7 +371,7 @@
 							<input type="email" name="EMAIL" placeholder="Enter Your Email Address..." class="email form-control input-box form-signup" id="mce-EMAIL">
 							<div style="position: absolute; left: -5000px;"><input type="text" name="b_ce324e7802138fa1a9eda5bac_f08025b4fc" tabindex="-1" value=""></div>		
 							<!-- SUBSCRIBE BUTTON --> 
-							<input type="submit" name="submit" class="btn btn-success form-signup" value="Request invite!" name="subscribe" id="mc-embedded-subscribe">		
+							<input type="submit" name="submit" class="btn btn-success form-signup" value="Request invite!" name="subscribe" id="mc-embedded-subscribe-form-down">		
 							<br>
 							<small style="color: rgba(0,0,0,0.3)">Please leave your e-mail and we'll notify you when we start!</small>
 						</form>				
@@ -416,7 +416,7 @@
 	</script>
 	<script type="text/javascript">
 		// mixpanel.track_forms("#mc-embedded-subscribe-form", "Email subscribe - up form");
-		// mixpanel.track_forms("#mc-embedded-subscribe-form-down", "Email subscribe - down form");
+		mixpanel.track_forms("#mc-embedded-subscribe-form-down", "Email subscribe - down form");
 	</script>
 </body>
 </html>
